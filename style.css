@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color:darkgreen;
+    text-align: center;
+    font-size: 50px;
+    margin: 2% 0;
+    cursor: default;
+    transition: 0.5s;
+}
+
+h1:hover{
+    transition: 0.5s;
+    color: darkmagenta;
+}
+
+h2 {
+    color: chartreuse;
+    font-size: 30px;
+}
+
+.pendidikan {
+    color:black;
+}
+
+body {
+    background-color:coral;
+}
+
+.gambar {
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.penjelasan {
+    font-size: 30px;
+    text-align: justify;
+    padding: 20px 10%;
+}
+
+.penjelasan::first-letter{
+    font-size: 80px;
+}
+
+.tabel{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.wow {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    padding: 30px 0;
+}
+
+.nomor{
+    color:gray;
+}
+
+.github{
+    color:cornflowerblue;
+}
